@@ -6,21 +6,6 @@
 
 A sophisticated implementation of teaching agents that can generate adaptive curricula and guide learning agents through complex tasks. This project demonstrates the power of meta-learning and curriculum learning in creating effective teaching strategies.
 
-## 👨‍💻 About Me
-
-Hi! I'm Asfandyar, a passionate AI/ML developer with a keen interest in reinforcement learning and educational technology. This project represents my exploration into creating intelligent teaching systems that can adapt to individual learning needs.
-
-**My Interests:**
-- 🤖 Artificial Intelligence & Machine Learning
-- 📚 Educational Technology
-- 🧠 Reinforcement Learning
-- 🎯 Curriculum Design
-- 🔄 Meta-Learning
-
-**Connect with me:**
-- GitHub: [@Asfandyar1213](https://github.com/Asfandyar1213)
-- LinkedIn: [Asfandyar](https://www.linkedin.com/in/asfandyar/)
-
 ## 🌟 Features
 
 - **Adaptive Teaching**: Teaching agents that can:
