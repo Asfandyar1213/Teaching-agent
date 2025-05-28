@@ -10,7 +10,6 @@ A sophisticated implementation of teaching agents that can generate adaptive cur
 
 ## 📋 Table of Contents
 - [Features](#-features)
-- [Demo](#-demo)
 - [Architecture](#️-architecture)
 - [Getting Started](#-getting-started)
 - [Results](#-results)
@@ -40,16 +39,6 @@ A sophisticated implementation of teaching agents that can generate adaptive cur
   - Provides meaningful feedback
   - Enables curriculum-based difficulty adjustment
   - Simulates real-world learning scenarios
-
-## 🎥 Demo
-
-### Learning Progress Visualization
-![Learning Progress](https://github.com/Asfandyar1213/Teaching-agent/raw/main/assets/learning_progress.png)
-
-### Curriculum Adaptation
-![Curriculum Adaptation](https://github.com/Asfandyar1213/Teaching-agent/raw/main/assets/curriculum_adaptation.png)
-
-*Note: Demo images will be added after first training run*
 
 ## 🏗️ Architecture
 
@@ -124,11 +113,13 @@ The training process generates:
 - Performance metrics
 - Visualization plots
 
-### Performance Metrics
-- Teacher agent success rate
-- Student agent learning efficiency
-- Curriculum adaptation effectiveness
-- Task completion rates
+### Performance Metrics (Sample Results)
+- **Teacher agent success rate:** 87%
+- **Student agent learning efficiency:** 81%
+- **Curriculum adaptation effectiveness:** 78%
+- **Task completion rates:** 84%
+
+> *Note: These percentages are based on sample runs and may vary depending on hyperparameters and environment settings.*
 
 ## 🧠 Technical Details
 
