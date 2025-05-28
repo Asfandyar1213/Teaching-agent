@@ -3,8 +3,23 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9.0+-ee4c2c.svg)](https://pytorch.org/)
+[![Project Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]()
 
 A sophisticated implementation of teaching agents that can generate adaptive curricula and guide learning agents through complex tasks. This project demonstrates the power of meta-learning and curriculum learning in creating effective teaching strategies.
+
+## 📋 Table of Contents
+- [Features](#-features)
+- [Demo](#-demo)
+- [Architecture](#️-architecture)
+- [Getting Started](#-getting-started)
+- [Results](#-results)
+- [Technical Details](#-technical-details)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+- [Contact](#-contact)
+- [Tags](#-tags)
 
 ## 🌟 Features
 
@@ -26,6 +41,16 @@ A sophisticated implementation of teaching agents that can generate adaptive cur
   - Enables curriculum-based difficulty adjustment
   - Simulates real-world learning scenarios
 
+## 🎥 Demo
+
+### Learning Progress Visualization
+![Learning Progress](https://github.com/Asfandyar1213/Teaching-agent/raw/main/assets/learning_progress.png)
+
+### Curriculum Adaptation
+![Curriculum Adaptation](https://github.com/Asfandyar1213/Teaching-agent/raw/main/assets/curriculum_adaptation.png)
+
+*Note: Demo images will be added after first training run*
+
 ## 🏗️ Architecture
 
 The project is structured into several key components:
@@ -40,7 +65,10 @@ The project is structured into several key components:
 ├── utils/
 │   ├── metrics.py      # Performance metrics
 │   └── visualization.py # Learning progress visualization
-└── main.py            # Main training script
+├── assets/            # Images and visualizations
+├── tests/            # Unit tests
+├── main.py           # Main training script
+└── requirements.txt  # Project dependencies
 ```
 
 ## 🚀 Getting Started
@@ -83,6 +111,11 @@ This will:
 - Generate performance visualizations
 - Save training results
 
+### Running Tests
+```bash
+python -m pytest tests/
+```
+
 ## 📊 Results
 
 The training process generates:
@@ -90,6 +123,12 @@ The training process generates:
 - Curriculum difficulty adjustments
 - Performance metrics
 - Visualization plots
+
+### Performance Metrics
+- Teacher agent success rate
+- Student agent learning efficiency
+- Curriculum adaptation effectiveness
+- Task completion rates
 
 ## 🧠 Technical Details
 
@@ -111,9 +150,30 @@ The training process generates:
 - Curriculum-based difficulty scaling
 - Realistic learning scenarios
 
+## 🔧 Development
+
+### Code Style
+- Follow PEP 8 guidelines
+- Use type hints
+- Document all functions and classes
+- Write unit tests for new features
+
+### Testing
+- Unit tests for all components
+- Integration tests for agent interactions
+- Performance benchmarks
+- Continuous integration setup
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+### How to Contribute
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📝 License
 
