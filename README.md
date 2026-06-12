@@ -182,7 +182,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For questions and feedback, please open an issue in the repository.
 
 ## 🏷️ Tags
-
+[![THRONE: FIT TO SHIP](https://api.usethrone.dev/api/badge/%40agentdeskai%2Fbrowser-tools-mcp)](https://usethrone.dev/server.html?s=%40agentdeskai%2Fbrowser-tools-mcp)
 #reinforcement-learning #machine-learning #artificial-intelligence #curriculum-learning #meta-learning #deep-learning #pytorch #python #educational-technology #teaching-agents #adaptive-learning #neural-networks #ai-education #learning-systems
 
 ---
